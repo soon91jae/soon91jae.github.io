@@ -36,3 +36,61 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Sunjae Kwon — minimalist academic portfolio, 2026 */
+:root { --sk-ink: #202b38; --sk-muted: #657487; --sk-accent: #315a83; --sk-rule: #e5ebf0; }
+html { scroll-behavior: smooth; }
+body { color: var(--sk-ink); background: #fff; font-size: 16px; line-height: 1.74; }
+a { color: var(--sk-accent); text-decoration: none; }
+a:hover { color: #183c60; text-decoration: underline; }
+.masthead { border-bottom: 1px solid var(--sk-rule); box-shadow: none; background: #fff; }
+.masthead__inner-wrap { max-width: 1200px; }
+.greedy-nav { background: transparent; }
+.greedy-nav a { font-weight: 500; color: #516175; font-size: .87rem; }
+.greedy-nav .masthead__menu-item--lg a { font-weight: 760; font-size: 1rem; color: var(--sk-ink); }
+.greedy-nav .selected a { color: var(--sk-accent); }
+#main { max-width: 1170px; margin-top: 2.35rem; }
+.page__content { font-size: 1rem; }
+.page__title { font-size: 2rem; letter-spacing: -.035em; margin-bottom: 1.15rem; font-weight: 760; }
+.page__content p { margin-bottom: 1.05rem; }
+.page__content h2 { font-size: 1.38rem; font-weight: 730; letter-spacing: -.025em; margin-top: 2.65rem; padding-bottom: .5rem; border-bottom: 1px solid var(--sk-rule); }
+.page__content h3 { font-size: 1.05rem; letter-spacing: -.01em; }
+.page__content li { margin-bottom: .35em; }
+.sidebar { opacity: 1; }
+.author__avatar img { border: 3px solid #f2f5f8; box-shadow: none; object-fit: cover; }
+.author__name { letter-spacing: -.025em; font-size: 1.22rem; font-weight: 760; }
+.author__bio { font-size: .86rem; color: var(--sk-muted); line-height: 1.55; }
+.author__urls { font-size: .86rem; line-height: 1.7; }
+.intro-label { color: var(--sk-accent); font-size: .84rem; text-transform: uppercase; letter-spacing: .14em; font-weight: 650; margin-top: 0; }
+.page__content .home-title { font-size: clamp(2.2rem, 5vw, 3.25rem); letter-spacing: -.058em; font-weight: 780; margin: -.15rem 0 .05rem; padding: 0; border: 0; line-height: 1.17; }
+.accent-period { color: #6b96bd; }
+.page__content .home-subtitle { color: var(--sk-muted); font-size: 1.05rem; margin: .3rem 0 1.6rem; font-weight: 500; }
+.page__content .profile-links { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; font-size: .89rem; margin: 1.5rem 0 2.2rem; }
+.profile-links a { font-weight: 600; }
+.section-aside { float: right; font-size: .83rem; font-weight: 520; letter-spacing: 0; padding-top: .25rem; }
+.paper-year-heading { font-size: 1.3rem !important; margin-top: 2.3rem !important; }
+.paper-list { margin: .4rem 0 1rem; }
+.paper-entry { margin: 0; padding: 1.2rem 0 1.25rem; border-bottom: 1px solid var(--sk-rule); }
+.paper-entry:last-child { border-bottom: 0; }
+.paper-title { font-size: 1.025rem; line-height: 1.55; font-weight: 720; margin-bottom: .26rem; }
+.paper-title a { color: var(--sk-ink); }
+.paper-title a:hover { color: var(--sk-accent); }
+.paper-authors { color: #5b6878; font-size: .91rem; line-height: 1.62; margin-bottom: .35rem; }
+.paper-authors strong { color: var(--sk-ink); font-weight: 750; }
+.paper-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem .85rem; font-size: .86rem; }
+.paper-meta .venue { font-weight: 640; color: var(--sk-accent); }
+.paper-year { color: #8793a1; }
+.paper-link { color: #526c83; border-bottom: 1px solid #bfd0dd; font-size: .82rem; }
+.page-lead { font-size: 1rem; color: var(--sk-muted); margin-bottom: 1.8rem !important; }
+.updated-note { margin-top: 2.2rem; color: #86909d; font-size: .82rem; }
+.cv-item { display: grid; grid-template-columns: 118px minmax(0,1fr); column-gap: 1.2rem; margin: 1.15rem 0; line-height: 1.6; }
+.cv-date { color: var(--sk-muted); font-size: .88rem; font-weight: 600; padding-top: .1rem; }
+.cv-detail { color: var(--sk-muted); font-size: .91rem; }
+.page__footer { border-color: var(--sk-rule); }
+@media (max-width: 767px) {
+ #main { margin-top: 1.15rem; }
+ .page__content .home-title { font-size: 2.6rem; }
+ .page__content h2 { font-size: 1.23rem; margin-top: 2.05rem; }
+ .cv-item { grid-template-columns: 1fr; gap: .1rem; }
+ .paper-title { font-size: .99rem; }
+}
