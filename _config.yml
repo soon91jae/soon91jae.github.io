@@ -23,7 +23,7 @@ repository               : "soon91jae/soon91jae.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "sunjae-photo.png"
   name             : "Sunjae Kwon"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate in Computer Science | NLP & Clinical NLP"
