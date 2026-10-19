@@ -1,35 +1,49 @@
 ---
 layout: single
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am **Sunjae Kwon**, a Ph.D. student in Computer Science at the **University of Massachusetts Amherst**, advised by **Prof. Hong Yu**.
+<div class="intro-label">Hello, I'm</div>
+<h1 class="home-title">Sunjae Kwon<span class="accent-period">.</span></h1>
+<p class="home-subtitle">Ph.D. Candidate · Natural Language Processing & Clinical AI</p>
 
-My research focuses on **natural language processing, clinical NLP, and medical informatics**, including lexical semantics, large language models, multimodal grounding, and clinical information extraction. I am particularly interested in making language technologies more reliable and useful for understanding clinical records, communicating medical information, and studying health risks.
+I am a Ph.D. candidate in Computer Science at the **University of Massachusetts Amherst**, advised by **Prof. Hong Yu**. My research lies at the intersection of **natural language processing, machine learning, and healthcare**. I work on lexical semantics and multimodal grounding as well as clinical information extraction, medical language understanding, and computational approaches to healthcare research.
 
-Before joining UMass Amherst, I worked as an AI Research Scientist at **KAIST** and **UNIST**, and as an AI Research Intern at **Tencent America**. I received my M.S. and B.S. in Computer Science from **Sogang University**.
+Previously, I was an AI Research Scientist at **KAIST** and **UNIST**, and an AI Research Intern at **Tencent America**. I received my M.S. and B.S. in Computer Science from **Sogang University**.
 
-## Research Interests
+<p class="profile-links"><a href="mailto:sunjaekwon@umass.edu">Email ↗</a><a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar ↗</a><a href="https://github.com/soon91jae">GitHub ↗</a><a href="/cv/">Curriculum Vitae ↗</a></p>
 
-- **Natural Language Processing:** lexical semantics, information extraction, large language models, and multimodal grounding
-- **Clinical NLP:** clinical information extraction, medical terminology, and patient education
-- **Medical Informatics:** risk-factor analysis, epidemiology, and clinical decision support
+## Research
 
-## Selected Research
+My current interests include:
 
-- **SAGE** (2026, preprint) — Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning
-- **ODD** (NAACL 2024) — A benchmark for opioid-related aberrant behavior detection
-- **Vision Meets Definitions** (ACL 2023) — Unsupervised visual word sense disambiguation with gloss information
-- **MedJEx** (EMNLP 2022) — Medical jargon extraction with contextualized language models
-- **CR-COPEC** (Findings of EMNLP 2023) — Explaining causal rationales for stock price changes
+- **Language understanding:** lexical semantics, word sense disambiguation, grounding, and large language models.
+- **Clinical natural language processing:** medical jargon, clinical concepts, behavioral information extraction, and patient education.
+- **Medical informatics:** modeling risk factors from electronic health records and making clinical AI more interpretable and useful.
 
-Explore my [publications](/publications/), [academic service](/service/), and [CV](/cv/).
+## Selected Publications <span class="section-aside"><a href="/publications/">Full list →</a></span>
 
-## Contact
+{% assign featured_titles = "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection|Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information|MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Information and Contextualized Masked Language Model Score|CR-COPEC: Learning to Explain Causal Rationale of Stock Price Changes in Financial Reports" | split: "|" %}
+<div class="paper-list paper-list--featured">
+{% for title in featured_titles %}
+  {% assign paper = site.data.papers | where: "title", title | first %}
+  {% if paper %}
+    <article class="paper-entry">
+      <div class="paper-title">{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
+      <div class="paper-authors">{{ paper.authors | replace: 'Sunjae Kwon', '<strong>Sunjae Kwon</strong>' }}</div>
+      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="paper-year">{{ paper.year }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}</div>
+    </article>
+  {% endif %}
+{% endfor %}
+</div>
 
-[sunjaekwon@umass.edu](mailto:sunjaekwon@umass.edu) · [Google Scholar](https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&hl=en) · [GitHub](https://github.com/soon91jae)
+## Academic Service
+
+I regularly review for conferences and journals in natural language processing, machine learning, and healthcare informatics. See my [Academic Service](/service/) page for details.
+
+<p class="updated-note">For a complete and updated publication record, please visit <a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar</a>.</p>
