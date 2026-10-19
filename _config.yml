@@ -26,9 +26,9 @@ author:
   avatar           : # Upload your photo to images/profile.png, then set "profile.png"
   name             : "Sunjae Kwon"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Student in Computer Science | NLP & Clinical NLP"
+  bio              : "Ph.D. Candidate in Computer Science | NLP & Clinical NLP"
   location         : "Massachusetts, USA"
-  employer         : "University of Massachusetts Amherst"
+  employer         : "UMass Amherst"
   uri              : # URL
   email            : "sunjaekwon@umass.edu" 
 
