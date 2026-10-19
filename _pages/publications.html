@@ -1,36 +1,41 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>Selected publications and preprints are listed below. For a continually updated record, visit my <a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
 
-{% include base_path %}
+<h2>Preprints and Manuscripts</h2>
+<ul>
+  <li>S. Kwon et al. <strong>SAGE: Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning.</strong> 2026. <em>Preprint.</em></li>
+  <li>J. Huang et al. <strong>Counterfactual Graph for Multi-Agent LLM Calibration.</strong> 2026. <em>Preprint.</em></li>
+  <li>M. Li et al. <strong>OverdoseMoE: A Multi-Expert Framework for Opioid Overdose Risk Prediction.</strong> 2026. <em>Preprint.</em></li>
+  <li>R. Pandey, S. Kwon, and H. Yu. <strong>MUSES: A Benchmark for Prospective Intellectual-Roots Retrieval.</strong> 2026. <em>Preprint.</em></li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Journal Articles</h2>
+<ul>
+  <li>W. S. Jang et al. <strong>Enhancing LLMs for Identifying and Prioritizing Important Medical Jargons from Electronic Health Record Notes Utilizing Data Augmentation.</strong> <em>JMIR AI</em>, 2026.</li>
+  <li>C. Leon et al. <strong>The Association of Neurocognitive Symptoms with Opioid Overdose Events Among Patients on Long-Term Opioid Therapy.</strong> <em>Substance Use and Addiction</em>, 2026.</li>
+  <li>C. Leon et al. <strong>Occurrence of Opioid Related Neurocognitive Symptoms Associated with Long-Term Opioid Therapy.</strong> <em>Clinical Journal of Pain</em>, 2025.</li>
+  <li>S. Kwon, D. Oh, and Y. Ko. <strong>Word Sense Disambiguation Based on Context Selection Using Knowledge-Based Word Similarity.</strong> <em>Information Processing &amp; Management</em>, 2021.</li>
+  <li>S. Kwon, Y. Ko, and J. Seo. <strong>Effective Vector Representation for the Korean Named-Entity Recognition.</strong> <em>Pattern Recognition Letters</em>, 2019.</li>
+</ul>
 
-
-
+<h2>Selected Conference Papers</h2>
+<ul>
+  <li>M. Li et al. <strong>RICE-PO: Turning Retrieval Interactions into Credit Signals for Reasoning Agents.</strong> <em>NeurIPS</em>, 2026.</li>
+  <li>Z. Yao et al. <strong>DischargeSim: A Simulation Benchmark for Educational Doctor–Patient Communication at Discharge.</strong> <em>EMNLP</em>, 2025.</li>
+  <li>W. S. Jang et al. <strong>Chatbot to Help Patients Understand Their Health.</strong> <em>Findings of EMNLP</em>, 2025.</li>
+  <li>S. Kwon et al. <strong>ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection.</strong> <em>NAACL</em>, 2024.</li>
+  <li>Z. Yao et al. <strong>README: Bridging Medical Jargon and Lay Understanding for Patient Education Through Data-Centric NLP.</strong> <em>Findings of EMNLP</em>, 2024.</li>
+  <li>Y. Chun, S. Kwon, et al. <strong>CR-COPEC: Learning to Explain Causal Rationale of Stock Price Changes in Financial Reports.</strong> <em>Findings of EMNLP</em>, 2023.</li>
+  <li>S. Kwon et al. <strong>Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information.</strong> <em>ACL</em>, 2023.</li>
+  <li>Z. Yang, S. Kwon, and H. Yu. <strong>Multi-label Few-shot ICD Coding as Autoregressive Generation with Prompt.</strong> <em>AAAI</em>, 2023 (oral).</li>
+  <li>S. Kwon, Z. Yao, and H. Yu. <strong>MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Information and Contextualized Masked Language Model Score.</strong> <em>EMNLP</em>, 2022.</li>
+  <li>D. Oh, S. Kwon, et al. <strong>Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-Based Graph.</strong> <em>COLING</em>, 2018.</li>
+  <li>S. Kwon, Y. Ko, and J. Seo. <strong>A Robust Named-Entity Recognition System Using Syllable Bigram Embedding with Eojeol Prefix Information.</strong> <em>CIKM</em>, 2017.</li>
+</ul>
+<p><em>This page presents a selected list rather than a complete bibliography.</em></p>
