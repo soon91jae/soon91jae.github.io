@@ -1,64 +1,36 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /resume/
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Ph.D. in Computer Science**, University of Massachusetts Amherst, September 2021–present. Advisor: Prof. Hong Yu.
+- **M.S. in Computer Science**, Sogang University, March 2015–February 2017. Advisor: Prof. Jungyun Seo.
+- **B.S. in Computer Science**, Sogang University, March 2011–February 2015. *Magna Cum Laude.*
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research Experience
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **AI Research Intern**, Tencent America, June–September 2023
+- **AI Research Scientist**, KAIST, October 2019–July 2021
+- **AI Research Scientist**, UNIST, April 2017–September 2019
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research Interests
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Natural language processing, large language models, lexical semantics, multimodal grounding, clinical information extraction, patient education, and medical informatics.
+
+## Publications
+
+Please see my [Publications](/publications/) page and [Google Scholar](https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&hl=en).
+
+## Academic Service
+
+Please see [Academic Service](/service/) for editorial, reviewing, and program committee activities.
+
+## Contact
+
+Email: [sunjaekwon@umass.edu](mailto:sunjaekwon@umass.edu)
