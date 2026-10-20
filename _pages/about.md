@@ -26,7 +26,7 @@ My current interests include:
 
 ## Selected Publications <span class="section-aside"><a href="/publications/">Full list →</a></span>
 
-{% assign featured_titles = "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection|Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information|MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Information and Contextualized Masked Language Model Score|CR-COPEC: Learning to Explain Causal Rationale of Stock Price Changes in Financial Reports" | split: "|" %}
+{% assign featured_titles = "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection|Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information|MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Span and Contextualized Masked Language Model Score|Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-based Graph|A Robust Named-Entity Recognition System Using Syllable Bigram Embedding with Eojeol Prefix Information" | split: "|" %}
 <div class="paper-list paper-list--featured">
 {% for title in featured_titles %}
   {% assign paper = site.data.papers | where: "title", title | first %}
@@ -34,7 +34,7 @@ My current interests include:
     <article class="paper-entry">
       <div class="paper-title">{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
       <div class="paper-authors">{{ paper.authors | replace: 'Sunjae Kwon', '<strong>Sunjae Kwon</strong>' }}</div>
-      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="paper-year">{{ paper.year }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}</div>
+      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="paper-year">{{ paper.year }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a class="paper-link" href="{{ paper.code }}">Code ↗</a>{% endif %}</div>
     </article>
   {% endif %}
 {% endfor %}
