@@ -61,8 +61,9 @@
   paper: "https://aclanthology.org/2023.acl-long.88/"
 - year: 2023
   title: "CR-COPEC: Learning to Explain Causal Rationale of Stock Price Changes in Financial Reports"
-  authors: "Y. Chun, Sunjae Kwon, N. Sung, et al."
+  authors: "Ye Chun, Sunjae Kwon, Kyunghwan Sohn, Nakwon Sung, Junyoup Lee, Byoung Seo, Kevin Compher, Seung-won Hwang, Jaesik Choi"
   venue: "Findings of EMNLP"
+  paper: "https://aclanthology.org/2023.findings-emnlp.26/"
 - year: 2023
   title: "Multi-label Few-shot ICD Coding as Autoregressive Generation with Prompt"
   authors: "Zhichao Yang, Sunjae Kwon, Hong Yu"
