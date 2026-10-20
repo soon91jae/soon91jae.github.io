@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p class="page-lead">Publications are organized by year. My name is highlighted in the author lists. For citations and the complete record, see <a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar ↗</a>.</p>
+<p class="page-lead">Publications are organized by year, newest first. [C] = conference, [W] = workshop/shared task, and [J] = journal; numbering increases chronologically within each category. My name is highlighted in the author lists. For citations and the complete record, see <a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar ↗</a>.</p>
 
 {% assign years = site.data.papers | map: "year" | uniq | sort | reverse %}
 {% for year in years %}
@@ -14,9 +14,9 @@ author_profile: true
   {% assign yearly_papers = site.data.papers | where: "year", year %}
   {% for paper in yearly_papers %}
     <article class="paper-entry">
-      <div class="paper-title">{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
+      <div class="paper-title"><span class="paper-number">[{{ paper.number }}]</span> {% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
       <div class="paper-authors">{{ paper.authors | replace: 'Sunjae Kwon', '<strong>Sunjae Kwon</strong>' }}</div>
-      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a class="paper-link" href="{{ paper.code }}">Code ↗</a>{% endif %}</div>
+      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a class="paper-link" href="{{ paper.code }}">Code ↗</a>{% endif %}{% if paper.poster %}<a class="paper-link" href="{{ paper.poster }}">Poster ↗</a>{% endif %}</div>
     </article>
   {% endfor %}
   </div>
