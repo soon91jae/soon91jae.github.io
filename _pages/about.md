@@ -32,9 +32,9 @@ My current interests include:
   {% assign paper = site.data.papers | where: "title", title | first %}
   {% if paper %}
     <article class="paper-entry">
-      <div class="paper-title">{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
+      <div class="paper-title"><span class="paper-number">[{{ paper.number }}]</span> {% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
       <div class="paper-authors">{{ paper.authors | replace: 'Sunjae Kwon', '<strong>Sunjae Kwon</strong>' }}</div>
-      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="paper-year">{{ paper.year }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a class="paper-link" href="{{ paper.code }}">Code ↗</a>{% endif %}</div>
+      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span class="paper-year">{{ paper.year }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a class="paper-link" href="{{ paper.code }}">Code ↗</a>{% endif %}{% if paper.poster %}<a class="paper-link" href="{{ paper.poster }}">Poster ↗</a>{% endif %}</div>
     </article>
   {% endif %}
 {% endfor %}
