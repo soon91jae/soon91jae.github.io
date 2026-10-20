@@ -5,12 +5,14 @@
   paper: "https://arxiv.org/abs/2605.26352"
 - year: 2026
   title: "Enhancing LLMs for Identifying and Prioritizing Important Medical Jargons from Electronic Health Record Notes Utilizing Data Augmentation"
-  authors: "W. S. Jang, S. Sultana, Z. Yao, et al."
+  authors: "Won Seok Jang, Sharmin Sultana, Zonghai Yao, Hieu Tran, Zhichao Yang, Sunjae Kwon, Hong Yu"
   venue: "JMIR AI"
+  paper: "https://ai.jmir.org/2026/1/e75561"
 - year: 2026
   title: "The Association of Neurocognitive Symptoms with Opioid Overdose Events Among Patients on Long-Term Opioid Therapy"
-  authors: "C. Leon, M. Sung, J. Reisman, et al."
+  authors: "Casey León, Minhee L. Sung, Joel I. Reisman, Weisong Liu, Robert D. Kerns, Kirsha S. Gordon, Avijit Mitra, Sunjae Kwon, Hong Yu, William C. Becker, Wenjun Li"
   venue: "Substance Use and Addiction"
+  paper: "https://doi.org/10.1177/29767342261443858"
 - year: 2025
   title: "Chatbot to Help Patients Understand Their Health"
   authors: "Won Seok Jang, Hieu Tran, Manav Shaileshkumar Mistry, Sai Kiran Gandluri, Yifan Zhang, Sharmin Sultana, Sunjae Kwon, Yuan Zhang, Zonghai Yao, Hong Yu"
@@ -23,8 +25,9 @@
   paper: "https://aclanthology.org/2025.emnlp-main.546/"
 - year: 2025
   title: "Occurrence of Opioid Related Neurocognitive Symptoms Associated with Long-Term Opioid Therapy"
-  authors: "C. Leon, M. Sung, J. Reisman, et al."
+  authors: "Casey León, Minhee L. Sung, Joel I. Reisman, Weisong Liu, Robert D. Kerns, Kirsha S. Gordon, Avijit Mitra, Sunjae Kwon, Hong Yu, William C. Becker, Wenjun Li"
   venue: "The Clinical Journal of Pain"
+  paper: "https://pubmed.ncbi.nlm.nih.gov/39682036/"
 - year: 2024
   title: "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection"
   authors: "Sunjae Kwon, Xun Wang, Weisong Liu, Emily Druhl, Minhee Sung, Joel Reisman, Wenjun Li, Robert Kerns, William Becker, Hong Yu"
@@ -41,7 +44,7 @@
   venue: "ClinicalNLP at NAACL"
 - year: 2024
   title: "TEAM at MEDIQA-M3G 2024: DermPrompt - A Systematic Exploration of Prompt Engineering with GPT-4V for Dermatological Diagnosis"
-  authors: "P. Vashisht, A. Lodha, M. Maddipatla, et al."
+  authors: "Parth Vashisht, Abhilasha Lodha, Mukta Maddipatla, Zonghai Yao, Avijit Mitra, Zhichao Yang, Sunjae Kwon, Junda Wang, Hong Yu"
   venue: "ClinicalNLP at NAACL"
 - year: 2024
   title: "BLOARK: Efficient, Cost-Effective, and Incremental Dataset Architecture for Wikipedia Revision History"
@@ -102,5 +105,7 @@
   venue: "TAC"
 - year: 2016
   title: "KSAnswer: Question-Answering System of Kangwon National University and Sogang University in the 2016 BioASQ Challenge"
-  authors: "H. Lee, M. Kim, H. Kim, et al."
+  authors: "Hyeon-gu Lee, Minkyoung Kim, Harksoo Kim, Juae Kim, Sunjae Kwon, Jungyun Seo, Yi-reun Kim, Jung-Kyu Choi"
   venue: "BioASQ at ACL"
+
+  paper: "https://aclanthology.org/W16-3106/"
