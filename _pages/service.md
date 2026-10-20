@@ -7,13 +7,13 @@ author_profile: true
 
 ## Area Chair
 
-- **2026**: **ARR** (May, Oct.)
+- **2026:** ARR (May, Oct.)
 
 ## Conference Reviewer
 
-- **2026**: **ARR:** (Aug.), **LREC:** 
-- **2025**: **LREC/COLING:**
-- **2024**: **EACL:**, **COLING:**, **NAACL:**, **NeurIPS:**
+- **2026:** ARR (Aug.), LREC
+- **2025:** LREC/COLING
+- **2024:** EACL, COLING, NAACL, NeurIPS
 
 ## Journal Reviewer
 
