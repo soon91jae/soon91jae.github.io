@@ -90,13 +90,15 @@
   paper: "https://aclanthology.org/2021.econlp-1.3/"
 - year: 2020
   title: "Why Do Masked Neural Language Models Still Need Commonsense Repositories to Handle Semantic Variations in Question Answering?"
-  authors: "Sunjae Kwon, C. Kang, J. Han, J. Choi"
+  authors: "Sunjae Kwon, Cheongwoong Kang, Jiyeon Han, Jaesik Choi"
   venue: "RCQA at AAAI · Oral"
+  paper: "https://rcqa-ws.github.io/papers/paper2.pdf"
 - year: 2019
   title: "Effective Vector Representation for the Korean Named-Entity Recognition"
   authors: "Sunjae Kwon, Youngjoong Ko, Jungyun Seo"
   venue: "Pattern Recognition Letters"
   paper: "https://doi.org/10.1016/j.patrec.2018.11.019"
+  code: "https://github.com/soon91jae/Korean-End2End-Named-entity-Recognition"
 - year: 2018
   title: "Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-Based Graph"
   authors: "Dongsuk O, Sunjae Kwon, Kyungsun Kim, Youngjoong Ko"
