@@ -53,8 +53,9 @@
   paper: "https://aclanthology.org/2024.wikinlp-1.16/"
 - year: 2024
   title: "Is It Safe to Cross? Interpretable Risk Assessment with GPT-4V for Safety-Aware Street Crossing"
-  authors: "H. Hwang, Sunjae Kwon, Y. Kim, D. Kim"
+  authors: "Hochul Hwang, Sunjae Kwon, Yekyung Kim, Donghyun Kim"
   venue: "Ubiquitous Robots · Best Paper Award Finalist"
+  paper: "https://ieeexplore.ieee.org/document/10597464"
 - year: 2023
   title: "Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information"
   authors: "Sunjae Kwon, Rishabh Garodia, Minhwa Lee, Zhichao Yang, Hong Yu"
@@ -79,8 +80,9 @@
   paper: "https://aclanthology.org/2022.emnlp-main.805/"
 - year: 2021
   title: "Word Sense Disambiguation Based on Context Selection Using Knowledge-Based Word Similarity"
-  authors: "Sunjae Kwon, Donghyeon Oh, Y. Ko"
+  authors: "Sunjae Kwon, Dongsuk Oh, Youngjoong Ko"
   venue: "Information Processing & Management"
+  paper: "https://doi.org/10.1016/j.ipm.2021.102551"
 - year: 2021
   title: "The Global Banking Standards QA Dataset (GBS-QA)"
   authors: "Kyunghwan Sohn, Sunjae Kwon, Jaesik Choi"
@@ -92,8 +94,9 @@
   venue: "RCQA at AAAI · Oral"
 - year: 2019
   title: "Effective Vector Representation for the Korean Named-Entity Recognition"
-  authors: "Sunjae Kwon, Y. Ko, J. Seo"
+  authors: "Sunjae Kwon, Youngjoong Ko, Jungyun Seo"
   venue: "Pattern Recognition Letters"
+  paper: "https://doi.org/10.1016/j.patrec.2018.11.019"
 - year: 2018
   title: "Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-Based Graph"
   authors: "Dongsuk O, Sunjae Kwon, Kyungsun Kim, Youngjoong Ko"
@@ -101,8 +104,10 @@
   paper: "https://aclanthology.org/C18-1229/"
 - year: 2017
   title: "A Robust Named-Entity Recognition System Using Syllable Bigram Embedding with Eojeol Prefix Information"
-  authors: "Sunjae Kwon, Y. Ko, J. Seo"
+  authors: "Sunjae Kwon, Youngjoong Ko, Jungyun Seo"
   venue: "CIKM"
+  paper: "https://doi.org/10.1145/3132847.3133105"
+  code: "https://github.com/soon91jae/Korean-End2End-Named-entity-Recognition"
 - year: 2017
   title: "A Method to Generate a Machine-Labeled Data for Biomedical Named Entity Recognition with Various Sub-domains"
   authors: "Juae Kim, Sunjae Kwon, Youngjoong Ko, Jungyun Seo"
@@ -110,8 +115,9 @@
   paper: "https://aclanthology.org/W17-5807/"
 - year: 2017
   title: "UNIST SAIL System for TAC 2017 Cold Start Slot Filling"
-  authors: "S. Lim, Sunjae Kwon, S. Lee, J. Choi"
+  authors: "Seongwoo Lim, Sunjae Kwon, Sehyun Lee, Jaesik Choi"
   venue: "TAC"
+  paper: "https://tac.nist.gov/publications/2017/participant.papers/TAC2017.UNIST_SAIL.proceedings.pdf"
 - year: 2016
   title: "KSAnswer: Question-Answering System of Kangwon National University and Sogang University in the 2016 BioASQ Challenge"
   authors: "Hyeon-gu Lee, Minkyoung Kim, Harksoo Kim, Juae Kim, Sunjae Kwon, Jungyun Seo, Yi-reun Kim, Jung-Kyu Choi"
