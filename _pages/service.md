@@ -5,25 +5,21 @@ permalink: /service/
 author_profile: true
 ---
 
-<p class="page-lead">I contribute to the research community through conference and journal peer review, with a focus on natural language processing, machine learning, and biomedical informatics.</p>
+## Area Chair
 
-## Conferences & Workshops
+- **ACL Rolling Review (ARR)** — May 2026 (EMNLP/AACL cycle)
 
-- **ACL Rolling Review (ARR)** — Reviewer and area chair service
-- **EMNLP**, **NAACL**, **EACL**, **COLING**, **NeurIPS**, and **LREC** — Reviewer
+## Conference Reviewer
 
-## Journals
+- **2026:** LREC
+- **2025:** LREC/COLING
+- **2024:** EACL, COLING, NAACL, NeurIPS
 
-### Artificial Intelligence & Computer Science
+## Journal Reviewer
 
-- *IEEE Transactions on Fuzzy Systems*
-- *Information Processing & Management*
-- *Expert Systems with Applications*
-- *Journal of Computational and Information Science*
-
-### Biomedical & Health Informatics
-
-- *Journal of Medical Internet Research*
-- *npj Mental Health Research*
-
-<p class="updated-note">Specific roles and years can be found in my academic CV.</p>
+- IEEE Transactions on Fuzzy Systems
+- Information Processing & Management
+- Expert Systems with Applications
+- Journal of Computational and Information Science
+- Journal of Medical Internet Research
+- npj Mental Health Research
