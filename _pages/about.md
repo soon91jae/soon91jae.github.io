@@ -40,6 +40,8 @@ My current interests include:
 {% endfor %}
 </div>
 
+<p class="updated-note"><strong>*</strong> Equal first-author contribution.</p>
+
 ## Academic Service
 
 I regularly review for conferences and journals in natural language processing, machine learning, and healthcare informatics. See my [Academic Service](/service/) page for details.
