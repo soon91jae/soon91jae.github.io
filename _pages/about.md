@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="intro-label">Hello, I'm</div>
-<h1 class="home-title">Sunjae Kwon<span class="accent-period">.</span></h1>
-<p class="home-subtitle">Ph.D. Candidate · Natural Language Processing & Clinical AI</p>
+<h1 class="home-title">Sunjae Kwon</h1>
 
 I am a Ph.D. candidate in Computer Science at the **University of Massachusetts Amherst**, advised by **Prof. Hong Yu**. My research lies at the intersection of **natural language processing, machine learning, and healthcare**. I work on lexical semantics and multimodal grounding as well as clinical information extraction, medical language understanding, and computational approaches to healthcare research.
 
