@@ -28,23 +28,29 @@
   authors: "Sunjae Kwon, Xun Wang, Weisong Liu, Emily Druhl, Minhee Sung, Joel Reisman, Wenjun Li, Robert Kerns, William Becker, Hong Yu"
   venue: "NAACL"
   paper: "https://aclanthology.org/2024.naacl-long.244/"
+  code: "https://github.com/soon91jae/ORAB_MIMIC"
 - year: 2024
   title: "README: Bridging Medical Jargon and Lay Understanding for Patient Education Through Data-Centric NLP"
   authors: "Zonghai Yao, Nandyala Siddharth Kantu, Guanghao Wei, Hieu Tran, Zhangqi Duan, Sunjae Kwon, Zhichao Yang, Hong Yu"
   venue: "Findings of EMNLP"
   paper: "https://aclanthology.org/2024.findings-emnlp.737/"
+  code: "https://github.com/zonghai-yao/NoteAid-README"
 - year: 2024
   title: "ClinicalMamba: A Generative Clinical Language Model on Longitudinal Clinical Notes"
-  authors: "Zhichao Yang, A. Mitra, Sunjae Kwon, Hong Yu"
+  authors: "Zhichao Yang, Avijit Mitra, Sunjae Kwon, Hong Yu"
   venue: "ClinicalNLP at NAACL"
+  paper: "https://aclanthology.org/2024.clinicalnlp-1.5/"
+  code: "https://github.com/whaleloops/ClinicalMamba"
 - year: 2024
-  title: "TEAM at MEDIQA-M3G 2024: DermPrompt - A Systematic Exploration of Prompt Engineering with GPT-4V for Dermatological Diagnosis"
+  title: "UMass-BioNLP at MEDIQA-M3G 2024: DermPrompt - A Systematic Exploration of Prompt Engineering with GPT-4V for Dermatological Diagnosis"
   authors: "Parth Vashisht, Abhilasha Lodha, Mukta Maddipatla, Zonghai Yao, Avijit Mitra, Zhichao Yang, Sunjae Kwon, Junda Wang, Hong Yu"
   venue: "ClinicalNLP at NAACL"
+  paper: "https://aclanthology.org/2024.clinicalnlp-1.50/"
 - year: 2024
-  title: "BLOARK: Efficient, Cost-Effective, and Incremental Dataset Architecture for Wikipedia Revision History"
-  authors: "L. Li, Z. Yao, Sunjae Kwon, Hong Yu"
+  title: "Blocks Architecture (BloArk): Efficient, Cost-Effective, and Incremental Dataset Architecture for Wikipedia Revision History"
+  authors: "Lingxi Li, Zonghai Yao, Sunjae Kwon, Hong Yu"
   venue: "Workshop on Advancing NLP for Wikipedia"
+  paper: "https://aclanthology.org/2024.wikinlp-1.16/"
 - year: 2024
   title: "Is It Safe to Cross? Interpretable Risk Assessment with GPT-4V for Safety-Aware Street Crossing"
   authors: "H. Hwang, Sunjae Kwon, Y. Kim, D. Kim"
@@ -54,27 +60,32 @@
   authors: "Sunjae Kwon, Rishabh Garodia, Minhwa Lee, Zhichao Yang, Hong Yu"
   venue: "ACL"
   paper: "https://aclanthology.org/2023.acl-long.88/"
+  code: "https://github.com/soon91jae/UVWSD"
 - year: 2023
   title: "CR-COPEC: Learning to Explain Causal Rationale of Stock Price Changes in Financial Reports"
-  authors: "Ye Chun, Sunjae Kwon, Kyunghwan Sohn, Nakwon Sung, Junyoup Lee, Byoung Seo, Kevin Compher, Seung-won Hwang, Jaesik Choi"
+  authors: "Ye Eun Chun, Sunjae Kwon, Kyunghwan Sohn, Nakwon Sung, Junyoup Lee, Byoung Ki Seo, Kevin Compher, Seung-won Hwang, Jaesik Choi"
   venue: "Findings of EMNLP"
   paper: "https://aclanthology.org/2023.findings-emnlp.26/"
+  code: "https://github.com/CR-COPEC/CR-COPEC"
 - year: 2023
   title: "Multi-label Few-shot ICD Coding as Autoregressive Generation with Prompt"
-  authors: "Zhichao Yang, Sunjae Kwon, Hong Yu"
+  authors: "Zhichao Yang, Sunjae Kwon, Zonghai Yao, Hong Yu"
   venue: "AAAI · Oral"
+  paper: "https://ojs.aaai.org/index.php/AAAI/article/view/25668"
 - year: 2022
-  title: "MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Information and Contextualized Masked Language Model Score"
-  authors: "Sunjae Kwon, Zonghai Yao, Hong Yu"
+  title: "MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Span and Contextualized Masked Language Model Score"
+  authors: "Sunjae Kwon, Zonghai Yao, Harmon Jordan, David Levy, Brian Corner, Hong Yu"
   venue: "EMNLP"
+  paper: "https://aclanthology.org/2022.emnlp-main.805/"
 - year: 2021
   title: "Word Sense Disambiguation Based on Context Selection Using Knowledge-Based Word Similarity"
   authors: "Sunjae Kwon, Donghyeon Oh, Y. Ko"
   venue: "Information Processing & Management"
 - year: 2021
   title: "The Global Banking Standards QA Dataset (GBS-QA)"
-  authors: "K. Sohn, Sunjae Kwon, J. Choi"
+  authors: "Kyunghwan Sohn, Sunjae Kwon, Jaesik Choi"
   venue: "EcoNLP at EMNLP"
+  paper: "https://aclanthology.org/2021.econlp-1.3/"
 - year: 2020
   title: "Why Do Masked Neural Language Models Still Need Commonsense Repositories to Handle Semantic Variations in Question Answering?"
   authors: "Sunjae Kwon, C. Kang, J. Han, J. Choi"
@@ -85,16 +96,18 @@
   venue: "Pattern Recognition Letters"
 - year: 2018
   title: "Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-Based Graph"
-  authors: "D. Oh, Sunjae Kwon, K. Kim, Y. Ko"
+  authors: "Dongsuk O, Sunjae Kwon, Kyungsun Kim, Youngjoong Ko"
   venue: "COLING"
+  paper: "https://aclanthology.org/C18-1229/"
 - year: 2017
   title: "A Robust Named-Entity Recognition System Using Syllable Bigram Embedding with Eojeol Prefix Information"
   authors: "Sunjae Kwon, Y. Ko, J. Seo"
   venue: "CIKM"
 - year: 2017
   title: "A Method to Generate a Machine-Labeled Data for Biomedical Named Entity Recognition with Various Sub-domains"
-  authors: "J. Kim, Sunjae Kwon, Y. Ko, J. Seo"
+  authors: "Juae Kim, Sunjae Kwon, Youngjoong Ko, Jungyun Seo"
   venue: "DDDSM at IJCNLP"
+  paper: "https://aclanthology.org/W17-5807/"
 - year: 2017
   title: "UNIST SAIL System for TAC 2017 Cold Start Slot Filling"
   authors: "S. Lim, Sunjae Kwon, S. Lee, J. Choi"
