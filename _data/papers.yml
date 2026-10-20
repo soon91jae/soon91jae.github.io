@@ -1,8 +1,9 @@
 - year: 2026
-  title: "Enhancing LLMs for Identifying and Prioritizing Important Medical Jargons from Electronic Health Record Notes Utilizing Data Augmentation"
+  title: "Enhancing Large Language Models for Identifying and Prioritizing Important Medical Jargons From Electronic Health Record Notes Using Data Augmentation: Comparative Study"
   authors: "Won Seok Jang, Sharmin Sultana, Zonghai Yao, Hieu Tran, Zhichao Yang, Sunjae Kwon, Hong Yu"
   venue: "JMIR AI"
   paper: "https://ai.jmir.org/2026/1/e75561"
+  code: "https://github.com/memy85/2024_medicalnote_annotation"
 - year: 2026
   title: "The Association of Neurocognitive Symptoms with Opioid Overdose Events Among Patients on Long-Term Opioid Therapy"
   authors: "Casey León, Minhee L. Sung, Joel I. Reisman, Weisong Liu, Robert D. Kerns, Kirsha S. Gordon, Avijit Mitra, Sunjae Kwon, Hong Yu, William C. Becker, Wenjun Li"
@@ -63,7 +64,7 @@
   paper: "https://aclanthology.org/2023.acl-long.88/"
   code: "https://github.com/soon91jae/UVWSD"
 - year: 2023
-  title: "CR-COPEC: Learning to Explain Causal Rationale of Stock Price Changes in Financial Reports"
+  title: "CR-COPEC: Causal Rationale of Corporate Performance Changes to learn from Financial Reports"
   authors: "Ye Eun Chun, Sunjae Kwon, Kyunghwan Sohn, Nakwon Sung, Junyoup Lee, Byoung Ki Seo, Kevin Compher, Seung-won Hwang, Jaesik Choi"
   venue: "Findings of EMNLP"
   paper: "https://aclanthology.org/2023.findings-emnlp.26/"
