@@ -7,10 +7,12 @@ author_profile: true
 
 ## Area Chair
 
-- **ACL Rolling Review (ARR)** — May 2026 (EMNLP/AACL cycle)
+- **ACL Rolling Review (ARR)** — October 2026 (NAACL 2027 cycle)
+- **ACL Rolling Review (ARR)** — May 2026 (EMNLP/AACL 2026 cycle)
 
 ## Conference Reviewer
 
+- **ACL Rolling Review (ARR):** August 2026
 - **EACL:** 2024
 - **COLING:** 2024
 - **NAACL:** 2024
