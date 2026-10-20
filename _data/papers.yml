@@ -97,7 +97,7 @@
   number: "C6"
 - year: 2023
   title: "CR-COPEC: Causal Rationale of Corporate Performance Changes to learn from Financial Reports"
-  authors: "Ye Eun Chun, Sunjae Kwon, Kyunghwan Sohn, Nakwon Sung, Junyoup Lee, Byoung Ki Seo, Kevin Compher, Seung-won Hwang, Jaesik Choi"
+  authors: "Ye Eun Chun*, Sunjae Kwon*, Kyunghwan Sohn, Nakwon Sung, Junyoup Lee, Byoung Ki Seo, Kevin Compher, Seung-won Hwang, Jaesik Choi"
   venue: "Findings of EMNLP"
   paper: "https://aclanthology.org/2023.findings-emnlp.26/"
   code: "https://github.com/CR-COPEC/CR-COPEC"
@@ -148,7 +148,7 @@
   number: "J1"
 - year: 2018
   title: "Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-Based Graph"
-  authors: "Dongsuk O, Sunjae Kwon, Kyungsun Kim, Youngjoong Ko"
+  authors: "Dongsuk O*, Sunjae Kwon*, Kyungsun Kim, Youngjoong Ko"
   venue: "COLING"
   paper: "https://aclanthology.org/C18-1229/"
   category: "C"
