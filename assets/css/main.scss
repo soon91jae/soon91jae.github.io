@@ -94,3 +94,32 @@ a:hover { color: #183c60; text-decoration: underline; }
  .cv-item { grid-template-columns: 1fr; gap: .1rem; }
  .paper-title { font-size: .99rem; }
 }
+
+/* Layout refinement: reclaim unused AcademicPages right gutter and let paper text wrap. */
+@media screen and (min-width: 1024px) {
+  #main { max-width: 1320px; width: 100%; padding-left: 22px; padding-right: 22px; }
+  #main > .page {
+    width: calc(100% - 245px);
+    max-width: none;
+    float: right;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  #main > .page > .page__inner-wrap { width: 100%; float: none; margin: 0; }
+  #main > .page .page__content { width: 100%; float: none; margin: 0; }
+}
+.paper-title, .paper-authors, .paper-entry, .page__content {
+  overflow-wrap: break-word;
+  word-break: normal;
+  white-space: normal;
+}
+.paper-title { font-size: .98rem; line-height: 1.5; }
+.paper-entry { max-width: 100%; }
+.paper-authors { font-size: .875rem; }
+.page__content .home-title { font-size: 2.7rem; margin: 0 0 1.5rem; }
+@media screen and (max-width: 1023px) {
+  #main > .page { width: 100%; max-width: 100%; padding: 0; }
+  #main { padding-left: 1rem; padding-right: 1rem; }
+}
