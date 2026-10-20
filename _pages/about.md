@@ -26,7 +26,7 @@ My current interests include:
 
 ## Selected Publications <span class="section-aside"><a href="/publications/">Full list →</a></span>
 
-{% assign featured_titles = "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection|Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information|MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Span and Contextualized Masked Language Model Score|Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-based Graph|A Robust Named-Entity Recognition System Using Syllable Bigram Embedding with Eojeol Prefix Information" | split: "|" %}
+{% assign featured_titles = "ODD: A Benchmark Dataset for the Natural Language Processing Based Opioid Related Aberrant Behavior Detection|Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information|MedJEx: A Medical Jargon Extraction Model with Wiki's Hyperlink Span and Contextualized Masked Language Model Score|Word Sense Disambiguation Based on Word Similarity Calculation Using Word Vector Representation from a Knowledge-Based Graph|A Robust Named-Entity Recognition System Using Syllable Bigram Embedding with Eojeol Prefix Information" | split: "|" %}
 <div class="paper-list paper-list--featured">
 {% for title in featured_titles %}
   {% assign paper = site.data.papers | where: "title", title | first %}
