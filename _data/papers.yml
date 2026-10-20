@@ -1,9 +1,4 @@
 - year: 2026
-  title: "RICE-PO: Turning Retrieval Interactions into Credit Signals for Reasoning Agents"
-  authors: "Mingchen Li, Hansi Zeng, Zhuo Qian, Jiatan Huang, Hamed Zamani, Hong Yu"
-  venue: "NeurIPS"
-  paper: "https://arxiv.org/abs/2605.26352"
-- year: 2026
   title: "Enhancing LLMs for Identifying and Prioritizing Important Medical Jargons from Electronic Health Record Notes Utilizing Data Augmentation"
   authors: "Won Seok Jang, Sharmin Sultana, Zonghai Yao, Hieu Tran, Zhichao Yang, Sunjae Kwon, Hong Yu"
   venue: "JMIR AI"
