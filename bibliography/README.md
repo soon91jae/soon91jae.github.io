@@ -18,9 +18,9 @@ Existing 32 entries were imported from the previous publication data (25 peer-re
 ```
 
 Custom fields:
-- `category`: `P` preprint / under review, `C` conference, `W` workshop, `J` journal.
+- `category` (optional): `P` preprint / under review, `C` conference, `W` workshop, `J` journal. If omitted, the converter infers it from `journal` / `booktitle` and defaults to `P` if unclear.
 - `venue`: display label, for example `NeurIPS` or `Manuscript under review`.
-- `paper` or `url`: paper/preprint URL; optional for unpublished manuscripts.
+- `paper` or `url`: paper/preprint URL; alternatively standard `doi` or arXiv `eprint` fields are recognized.
 - `code` and `poster`: optional links.
 - `number`: optional stable display number (e.g., `P7`). If omitted, the converter assigns the next available number in its category.
 
