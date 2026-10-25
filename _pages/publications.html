@@ -5,7 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p class="page-lead">Publications are organized by year, newest first. [C] = conference, [W] = workshop/shared task, and [J] = journal; numbering increases chronologically within each category. My name is highlighted in the author lists. For citations and the complete record, see <a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar ↗</a>.</p>
+<p class="page-lead">Preprints and peer-reviewed publications are listed below. [P] = preprint / manuscript under review, [C] = conference, [W] = workshop/shared task, and [J] = journal. My name is highlighted in the author lists. For citations and the complete record, see <a href="https://scholar.google.com/citations?user=N9ZM-CIAAAAJ&amp;hl=en">Google Scholar ↗</a>.</p>
+
+<h2 class="paper-year-heading">Preprints &amp; Under Review</h2>
+<div class="paper-list">
+{% for paper in site.data.preprints %}
+  <article class="paper-entry">
+    <div class="paper-title"><span class="paper-number">[{{ paper.number }}]</span> {% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</div>
+    <div class="paper-authors">{{ paper.authors | replace: 'Sunjae Kwon', '<strong>Sunjae Kwon</strong>' }}</div>
+    <div class="paper-meta"><span class="venue">{{ paper.year }} · {{ paper.venue }}</span>{% if paper.paper %}<a class="paper-link" href="{{ paper.paper }}">Preprint ↗</a>{% endif %}</div>
+  </article>
+{% endfor %}
+</div>
+<h2 class="paper-year-heading">Peer-Reviewed Publications</h2>
 
 {% assign years = site.data.papers | map: "year" | uniq | sort | reverse %}
 {% for year in years %}
@@ -24,4 +36,4 @@ author_profile: true
 
 <p class="updated-note"><strong>*</strong> Equal first-author contribution.</p>
 
-<p class="updated-note">This page lists peer-reviewed papers from my CV. Links are provided only where the official paper URL has been verified.</p>
+<p class="updated-note">Preprint entries include manuscripts under review; venue labels are not acceptance claims. Paper links are included only for publicly available manuscripts.</p>
