@@ -1,0 +1,40 @@
+- number: "P7"
+  year: 2026
+  title: "Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning"
+  authors: "Hieu Tran, Zonghai Yao, Sunjae Kwon, Hong Yu"
+  venue: "arXiv preprint"
+  paper: "https://arxiv.org/abs/2610.28785"
+- number: "P6"
+  year: 2026
+  title: "SAGE: Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning"
+  authors: "Sunjae Kwon, S. DG, Zonghai Yao, T. Chafekar, D. Singh, Hong Yu"
+  venue: "Manuscript under review"
+- number: "P5"
+  year: 2026
+  title: "OverdoseMoE: A Multi-Expert Framework for Opioid Overdose Risk Prediction"
+  authors: "Mingchen Li, R. Pandey, J. Qian, F. Ouyang, Sunjae Kwon, A. Mitra, Zonghai Yao, Hong Yu"
+  venue: "arXiv preprint"
+  paper: "https://arxiv.org/abs/2609.40108"
+- number: "P4"
+  year: 2026
+  title: "MUSES: A Benchmark for Prospective Intellectual-Roots Retrieval"
+  authors: "R. Pandey, Sunjae Kwon, Hong Yu"
+  venue: "arXiv preprint"
+  paper: "https://arxiv.org/abs/2609.00313"
+- number: "P3"
+  year: 2026
+  title: "Counterfactual Graph for Multi-Agent LLM Calibration"
+  authors: "J. Huang, Mingchen Li, Z. Li, Sunjae Kwon, Hong Yu, C. Zhang"
+  venue: "arXiv preprint"
+  paper: "https://arxiv.org/abs/2605.30653"
+- number: "P2"
+  year: 2026
+  title: "Large Language Models Overreact to Demographic Personas in Medical Jargon Extraction"
+  authors: "J. Lim, Sunjae Kwon, Zonghai Yao, J. P. Lalor, Hong Yu"
+  venue: "Manuscript under review · earlier preprint title on arXiv"
+  paper: "https://arxiv.org/abs/2408.05555"
+- number: "P1"
+  year: 2025
+  title: "Why Do Masked Neural Language Models Still Need Common Sense Knowledge?"
+  authors: "Sunjae Kwon*, C. Kang*, J. Han, J. Choi"
+  venue: "Manuscript under review"
