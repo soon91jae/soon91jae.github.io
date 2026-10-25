@@ -21,6 +21,38 @@ def normalize_authors(raw):
     return raw
 
 
+def infer_category(entry):
+    if entry.get("category"):
+        return entry["category"].upper().strip()
+    journal = entry.get("journal", "").lower()
+    if any(term in journal for term in ("arxiv", "preprint", "under review")):
+        return "P"
+    if entry.get("booktitle"):
+        return "C"
+    if entry.get("journal"):
+        return "J"
+    return "P"
+
+
+def infer_venue(entry, category):
+    return entry.get("venue") or entry.get("journal") or entry.get("booktitle") or (
+        "Preprint / under review" if category == "P" else "Publication"
+    )
+
+
+def infer_link(entry):
+    if entry.get("paper") or entry.get("url"):
+        return entry.get("paper") or entry.get("url")
+    if entry.get("eprint") and (
+        entry.get("archiveprefix", "").lower() == "arxiv" or
+        re.fullmatch(r"[0-9]{4}\\.[0-9]{4,5}", entry["eprint"])
+    ):
+        return "https://arxiv.org/abs/" + entry["eprint"]
+    if entry.get("doi"):
+        return "https://doi.org/" + entry["doi"]
+    return None
+
+
 def convert(source, target_dir, check=False):
     with source.open(encoding="utf-8") as handle:
         entries = bibtexparser.load(handle).entries
@@ -34,7 +66,7 @@ def convert(source, target_dir, check=False):
         if entry_id in seen_ids:
             raise ValueError(f"Duplicate BibTeX entry key: {entry_id}")
         seen_ids.add(entry_id)
-        category = entry.get("category", "").upper().strip()
+        category = infer_category(entry)
         if category not in {"P", "C", "W", "J"}:
             raise ValueError(f"{entry_id}: category must be P, C, W or J")
         for required in ("title", "author", "year"):
@@ -44,14 +76,15 @@ def convert(source, target_dir, check=False):
             "year": int(entry["year"]),
             "title": entry["title"].strip(),
             "authors": normalize_authors(entry["author"].strip()),
-            "venue": entry.get("venue", entry.get("journal", entry.get("booktitle", "Preprint" if category == "P" else ""))),
+            "venue": infer_venue(entry, category),
             "category": category,
         }
         for optional in ("paper", "code", "poster", "number"):
             if entry.get(optional):
                 item[optional] = entry[optional].strip()
-        if not item.get("paper") and entry.get("url"):
-            item["paper"] = entry["url"].strip()
+        link = infer_link(entry)
+        if link:
+            item["paper"] = link.strip()
         records.append(item)
     seen_numbers = set()
     for c in ("P", "C", "W", "J"):
